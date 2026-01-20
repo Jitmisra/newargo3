@@ -34,3 +34,11 @@ configs:
     statusbadge.enabled: 'true'
     exec.enabled: true
     admin.enabled: true
+
+repoServer:
+  service:
+    port: 8081
+  metrics:
+    enabled: true
+    service:
+      port: 8084
