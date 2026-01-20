@@ -23,6 +23,7 @@ resources:
   - istio.yaml
   - gateway-api.yaml
   - chartmuseum.yaml
+  - compile-onap.yaml
   - kiali-operator.yaml
   - kiali.yaml
   - k8ssandra-operator.yaml
